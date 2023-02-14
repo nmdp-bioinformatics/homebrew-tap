@@ -1,11 +1,24 @@
 # Nmdp-bioinformatics Tap
 
+Install **nmdp-bioinformatics** tools with Homebrew.
+
 ## How do I install these formulae?
 
-`brew install nmdp-bioinformatics/tap/<formula>`
+### Step 1
 
-Or `brew tap nmdp-bioinformatics/tap` and then `brew install <formula>`.
+Tap the _nmdp-bioinformatics_ brew: 
+This needs to be done only once
 
-## Documentation
+```
+brew tap nmdp-bioinformatics/tap
+```
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+### Step 2
+
+Install tools
+
+```
+brew install py-ard@9.0
+```
+
+When you `brew upgrade` next time, it'll also upgrade these tools if they have a newer version.
