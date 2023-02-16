@@ -1,4 +1,4 @@
-# Nmdp-bioinformatics Tap
+# Homebrew tap for nmdp-bioinformatics tools
 
 Install **nmdp-bioinformatics** tools with Homebrew.
 
