@@ -1,10 +1,7 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class PyArdAT09 < Formula
   include Language::Python::Virtualenv
 
-  desc "py-ard is the swish army knife of HLA ARD Reductions in Python"
+  desc "Project py-ard is the swish army knife of HLA ARD Reductions in Python"
   homepage "https://github.com/nmdp-bioinformatics/py-ard"
   url "https://github.com/nmdp-bioinformatics/py-ard/archive/refs/tags/0.9.1.tar.gz"
   sha256 "dd162211fc14104b9589ad10096b247fb78d0d5cb468282ded91b51256b9c104"
@@ -43,13 +40,12 @@ class PyArdAT09 < Formula
   end
 
   def install
-    # ENV.deparallelize  # if your formula fails when building in parallel
     virtualenv_install_with_resources
   end
 
   test do
     # Do a basic test of reducing HLA-A*01:01:01
     redux_result = shell_output("#{bin}/pyard --gl 'HLA-A*01:01:01' -r lgx")
-    assert_match('HLA-A*01:01', redux_result.strip)
+    assert_match("HLA-A*01:01", redux_result.strip)
   end
 end
