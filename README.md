@@ -17,8 +17,9 @@ brew tap nmdp-bioinformatics/tap
 
 Install tools
 
+For *py-ard*, use:
 ```
-brew install py-ard@9.0
+brew install py-ard
 ```
 
 When you `brew upgrade` next time, it'll also upgrade these tools if they have a newer version.
