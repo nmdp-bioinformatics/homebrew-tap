@@ -1,7 +1,7 @@
 class PyArd < Formula
   include Language::Python::Virtualenv
 
-  desc "Project py-ard is the swish army knife of HLA ARD Reductions in Python"
+  desc "Project py-ard is the swiss army knife of HLA ARD reductions in Python"
   homepage "https://github.com/nmdp-bioinformatics/py-ard"
   url "https://files.pythonhosted.org/packages/68/27/89796743056b5846daa10e8121b2d192ba9780c18e0c3f9098ac08eaccce/py-ard-1.0.0rc1.tar.gz"
   sha256 "8086623839bf8ef84622453a72e6eb3928ffe5786eb8285ae15f2caf6a6892ef"
