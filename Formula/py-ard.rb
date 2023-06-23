@@ -3,8 +3,8 @@ class PyArd < Formula
 
   desc "Project py-ard is the swiss army knife of HLA ARD reductions in Python"
   homepage "https://github.com/nmdp-bioinformatics/py-ard"
-  url "https://files.pythonhosted.org/packages/95/06/e00c778dbf2b7c82d62192b25de1ad7c7660888beb3e0870feaefc1f34e8/py-ard-1.0.0.tar.gz"
-  sha256 "6647be1e850cd05896affa299e6c2f425da1df51a8a61e634b41aa209e0a13d7"
+  url "https://files.pythonhosted.org/packages/26/d6/e1f2463d411aa17f23069ffede7332c00ee6f16a66026a244bfd89812b7a/py_ard-1.0.1-py2.py3-none-any.whl"
+  sha256 "2a186d0a40df752bfb25265595e198de674f75b7d42074f6783066a1228caf32"
   license "LGPL-3.0"
 
   depends_on "python@3.10"
