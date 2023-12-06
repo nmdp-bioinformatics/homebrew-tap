@@ -2,9 +2,9 @@ class PyArd < Formula
   include Language::Python::Virtualenv
 
   desc "Project py-ard is the swiss army knife of HLA ARD reductions in Python"
-  homepage "https://github.com/nmdp-bioinformatics/py-ard"
-  url "https://files.pythonhosted.org/packages/50/7e/455b18bbeabd76f42bb0c6b01941be1fee4f571ce8735fddbc1a4ce000a4/py-ard-1.0.7.tar.gz"
-  sha256 "9a8a93ac57787a99660a3dbcc8c023781e08ec490f449ab669d84497af2473c1"
+  homepage "https://py-ard.org"
+  url "https://files.pythonhosted.org/packages/58/d0/a65f2819ce6e85cd950ee7f81abe0da2ea9d6f166182d1b246ddbf30a9ce/py-ard-1.0.8.tar.gz"
+  sha256 "0936ab98e05aa88862d419b587bc68ee614ca526ddeea48ae0bf2761e4c13873"
   license "LGPL-3.0"
 
   depends_on "python@3.10"
