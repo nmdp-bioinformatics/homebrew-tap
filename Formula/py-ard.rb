@@ -7,7 +7,7 @@ class PyArd < Formula
   sha256 "48606f3b8c2d9f4973b18df6fbfa0ffa91bd28e8ff0e816c082efe642f0ebccb"
   license "LGPL-3.0"
 
-  depends_on "python@3.12"
+  depends_on "python@3.11"
 
   resource "pandas" do
     url "https://files.pythonhosted.org/packages/88/d9/ecf715f34c73ccb1d8ceb82fc01cd1028a65a5f6dbc57bfa6ea155119058/pandas-2.2.2.tar.gz"
