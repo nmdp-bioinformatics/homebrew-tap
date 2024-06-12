@@ -3,20 +3,20 @@ class PyArd < Formula
 
   desc "Project py-ard is the swiss army knife of HLA ARD reductions in Python"
   homepage "https://py-ard.org"
-  url "https://files.pythonhosted.org/packages/89/05/0101a4271ca1784366cb924eb839f106e424fb249e45f95cb5175bfcf3df/py-ard-1.5.0.tar.gz"
-  sha256 "48606f3b8c2d9f4973b18df6fbfa0ffa91bd28e8ff0e816c082efe642f0ebccb"
+  url "https://files.pythonhosted.org/packages/49/35/f0d748369399955945aa54f3195acdb65fa84737ffaf2a2d7f322fd64724/py-ard-1.2.0.tar.gz"
+  sha256 "dd39856a807bb7f8f741a0ce201bc35b59d86258551f16036b7d561e9bbecb72"
   license "LGPL-3.0"
 
-  depends_on "python@3.12"
+  depends_on "python@3.10"
 
   resource "numpy" do
-    url "https://files.pythonhosted.org/packages/55/b3/b13bce39ba82b7398c06d10446f5ffd5c07db39b09bd37370dc720c7951c/numpy-1.26.0.tar.gz"
-    sha256 "f93fc78fe8bf15afe2b8d6b6499f1c73953169fad1e9a8dd086cdff3190e7fdf"
+    url "https://files.pythonhosted.org/packages/e4/a9/6704bb5e1d1d778d3a6ee1278a8d8134f0db160e09d52863a24edb58eab5/numpy-1.24.2.tar.gz"
+    sha256 "003a9f530e880cb2cd177cba1af7220b9aa42def9c4afc2a2fc3ee6be7eb2b22"
   end
 
   resource "pandas" do
-    url "https://files.pythonhosted.org/packages/88/d9/ecf715f34c73ccb1d8ceb82fc01cd1028a65a5f6dbc57bfa6ea155119058/pandas-2.2.2.tar.gz"
-    sha256 "9e79019aba43cb4fda9e4d983f8e88ca0373adbb697ae9c6c43093218de28b54"
+    url "https://files.pythonhosted.org/packages/74/ee/146cab1ff6d575b54ace8a6a5994048380dc94879b0125b25e62edcb9e52/pandas-1.5.3.tar.gz"
+    sha256 "74a3fd7e5a7ec052f183273dc7b0acd3a863edf7520f5d3a1765c04ffdb3b0b1"
   end
 
   resource "python-dateutil" do
