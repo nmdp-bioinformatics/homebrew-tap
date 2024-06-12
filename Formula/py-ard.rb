@@ -8,7 +8,6 @@ class PyArd < Formula
   license "LGPL-3.0"
 
   depends_on "python@3.11"
-  depends_on "numpy"
 
   resource "pandas" do
     url "https://files.pythonhosted.org/packages/88/d9/ecf715f34c73ccb1d8ceb82fc01cd1028a65a5f6dbc57bfa6ea155119058/pandas-2.2.2.tar.gz"
