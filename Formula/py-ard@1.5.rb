@@ -7,7 +7,7 @@ class PyArdAT15 < Formula
   sha256 "dba86f59d63184f024f2398e9e60f6b17ad1befe38722914bc8ead1f6fd483d9"
   license "LGPL-3.0"
 
-  depends_on "python@3.12"
+  depends_on "python@3.11"
 
   resource "numpy" do
     url "https://files.pythonhosted.org/packages/a9/75/10dd1f8116a8b796cb2c737b674e02d02e80454bda953fa7e65d8c12b016/numpy-2.0.2.tar.gz"
