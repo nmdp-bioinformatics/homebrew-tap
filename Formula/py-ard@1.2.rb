@@ -1,4 +1,4 @@
-class PyArd < Formula
+class PyArdAT12 < Formula
   include Language::Python::Virtualenv
 
   desc "Project py-ard is the swiss army knife of HLA ARD reductions in Python"
